@@ -1,8 +1,16 @@
-# React + Vite
+# Midterm 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. axios-ის გამოყენებით წამოიღეთ ინფორმაცია API-დან https://randomuser.me/api/?results=10
+2. შეინახეთ ისინი State-ში []
+3. გამოიტანეთ ეკრანზე ინფორმაცია Fimgas-დიზაინის მიხედვით:
 
-Currently, two official plugins are available:
+https://www.figma.com/design/csWiLLCmhxbmUOXICj3HGS/%E1%83%A8%E1%83%A3%E1%83%90%E1%83%9A%E1%83%94%E1%83%93%E1%83%A3%E1%83%A0%E1%83%98-2%2C-%E1%83%93%E1%83%90%E1%83%95%E1%83%90%E1%83%9A%E1%83%94%E1%83%91%E1%83%90-2?node-id=0-1&t=LlkykWdhPXMjJrPe-1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!--  -->
+<!--  -->
+
+# Bonus დავალება:
+
+დაამტეთ ფილტრი ასაკზე, თუ მომხამრებელი 50 წელზე მეტია მარტო მაშინ გამოჩნეს.
+თუ ასეთი ადამიანების რაოდენობა იქნება 0-ის ტოლი გამოჩნდეს ფრაზა : "მომხარებელი არ მოიძებნა"
+(ამის შემოწმება შეგიძლიათ array.length-ის საშუალებით)
